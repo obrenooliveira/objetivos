@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import './reboot';
+@import './colors';
+@import './forms';
+@import './buttons';
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font: 16px 'Inter', sans-serif;
+  color: $text-main;
+}
+
+.full-logo {
+  font: 4rem/4.375rem 'Aladin', cursive, sans-serif;
+  color: $purple-main;
+}

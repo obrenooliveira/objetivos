@@ -1,0 +1,44 @@
+@import './../../../assets/scss/colors';
+
+.register{
+  width: 100%;
+  height: 100vh;
+  background-color: $purple-main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 1.563rem;
+  padding-right: 1.563rem;
+  position: relative;
+
+  &__logo {
+    color: $white;
+    text-align: center;
+    margin-block-start: 0;
+  }
+
+  &__form {
+    width: 100%;
+    max-width: 400px;
+    display: grid;
+  }
+
+  &__register {
+    position: absolute;
+    bottom: 1.875rem;
+    font-size: 0.875rem;
+    color: $white;
+  }
+
+  &__link {
+    font-weight: 600;
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
